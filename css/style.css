@@ -33,7 +33,7 @@ header{
     margin-left: 5px;
 }
 
-section{
+.input-section{
     width: 70%;
     height: 40px;
     background-color: white;
@@ -67,4 +67,44 @@ a:hover{
 
 .link-section{
     margin-left: 20px;
+}
+
+.main-section{
+    background-color: white;
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 2px;
+    
+}
+
+.new-task{
+    padding-top: 20px;
+}
+
+h3{
+    color:rgb(62, 61, 61);
+}
+
+.icon{
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+
+.sector{
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    
 }
