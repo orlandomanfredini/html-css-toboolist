@@ -86,14 +86,27 @@ h3{
     color:rgb(62, 61, 61);
 }
 
+.row{
+    padding-top: 10px;
+}
+
 .icon{
     text-align: center;
     display: inline-block;
     width: 20px;
     height: 20px;
-    color: green;
     border-radius: 50%;
+    
+}
+
+.green{
+    color: green;
     border: 1px solid green;
+}
+
+.red{
+    color: red;
+    border: 1px solid red;
 }
 
 .sector{
@@ -101,10 +114,29 @@ h3{
     width: 60px;
     height: 20px;
     line-height: 20px;
-    background-color: rgb(0, 153, 255);
     border-radius: 10px;
     color: white;
     font-size: 10px;
     text-align: center;
     
+}
+
+.blue{
+    background-color:rgb(0, 153, 255);
+}
+
+.today{
+    padding-top: 30px;
+}
+
+.purple{
+    background-color: rgb(172, 105, 234);
+}
+
+.lightgreen{
+    background-color: rgb(124, 192, 124);
+}
+
+.orange{
+    background-color: orange;
 }
