@@ -23,6 +23,7 @@ header{
     vertical-align: middle;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .logo-title{
@@ -31,10 +32,11 @@ header{
     font-weight: 500;
     color:#153960;
     margin-left: 5px;
+    vertical-align: middle;
 }
 
 .input-section{
-    width: 70%;
+    width: 60%;
     height: 40px;
     background-color: white;
     margin: 0 auto;
@@ -71,10 +73,11 @@ a:hover{
 
 .main-section{
     background-color: white;
-    width: 70%;
-    height: 700px;
+    width: 60%;
+    height: 500px;
     margin: 0 auto;
     margin-top: 2px;
+    border-radius: 0 0 10px 10px;
     
 }
 
@@ -139,4 +142,16 @@ h3{
 
 .orange{
     background-color: orange;
+}
+
+.upcoming{
+    padding-top: 30px;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.lime-green{
+    background-color: rgb(170, 224, 104);
 }
