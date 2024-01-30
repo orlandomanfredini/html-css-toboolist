@@ -32,3 +32,39 @@ header{
     color:#153960;
     margin-left: 5px;
 }
+
+section{
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(62, 61, 61);
+    border-radius: 5px;
+    border: 1px solid rgb(62, 61, 61);
+    margin-top: 10px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+
+   
+}
+
+a:hover{
+    background-color: rgb(46, 102, 192);
+    color: white;
+}
+
+.link-section{
+    margin-left: 20px;
+}
