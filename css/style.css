@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Abel', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Nabla', system-ui;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(240, 236, 236);
+}
+
+header{
+    background-color: white;
+    height: 80px;
+}
+
+.logo{
+    height: 80px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-title{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 500;
+    color:#153960;
+    margin-left: 5px;
+}
