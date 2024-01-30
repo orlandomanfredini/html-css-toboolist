@@ -1,8 +1,7 @@
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    
 }
 
 body{
@@ -14,81 +13,78 @@ body{
 }
 
 header{
-    background-color: white;
     height: 80px;
+    background-color: white;
 }
 
 .logo{
-    vertical-align: middle;
     padding-top: 10px;
-    padding-bottom: 10px;
     padding-left: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
 }
 
-.logo-title{
+.main-title{
     display: inline-block;
-    font-size: 38px;
-    font-weight: 500;
-    color:#153960;
-    margin-left: 5px;
     vertical-align: middle;
+    color: rgb(35, 35, 110);
+    font-weight: 500;
 }
+
+
 
 .input-section{
     width: 60%;
-    height: 40px;
+    height: 50px;
     background-color: white;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 50px;
     border-radius: 10px 10px 0 0;
+
 }
 
 .container{
-    width: 80%;
+    width: 70%;
+    height: 100%;
     margin: 0 auto;
 }
 
 a{
-    text-decoration: none;
-    color: rgb(62, 61, 61);
-    border-radius: 5px;
-    border: 1px solid rgb(62, 61, 61);
-    margin-top: 10px;
     display: inline-block;
+    text-decoration: none;
+    color: black;
     width: 100px;
+    height: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
     text-align: center;
-
-   
-}
-
-a:hover{
-    background-color: rgb(46, 102, 192);
-    color: white;
-}
-
-.link-section{
-    margin-left: 20px;
-}
-
-.main-section{
-    background-color: white;
-    width: 60%;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 2px;
-    border-radius: 0 0 10px 10px;
     
 }
 
+.link{
+    margin-left: 20px;
+}
+
+a:hover{
+    background-color: rgb(64, 64, 189);
+    color: white;
+}
+
+.main-section{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 3px;
+}
+
 .new-task{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
-h3{
-    color:rgb(62, 61, 61);
-}
 
-.row{
+ul, li{
+    list-style: none;
     padding-top: 10px;
 }
 
@@ -98,7 +94,6 @@ h3{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    
 }
 
 .green{
@@ -120,31 +115,38 @@ h3{
     color: white;
     font-size: 10px;
     text-align: center;
-    
 }
 
 .blue{
     background-color:rgb(0, 153, 255);
 }
 
-.today{
-    padding-top: 30px;
+.body-section{
+    padding-top: 10px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
 }
 
 .purple{
-    background-color: rgb(172, 105, 234);
+    background-color: blueviolet;
 }
 
 .lightgreen{
-    background-color: rgb(124, 192, 124);
+    background-color: lightgreen;
 }
 
 .orange{
     background-color: orange;
 }
 
-.upcoming{
-    padding-top: 30px;
+.foot-section{
+    padding-top: 10px;
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white; 
+    border-radius: 0 0 10px 10px; 
 }
 
 .pink{
@@ -152,5 +154,5 @@ h3{
 }
 
 .lime-green{
-    background-color: rgb(170, 224, 104);
+    background-color: lime;
 }
